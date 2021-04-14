@@ -26,7 +26,7 @@
      .action((appName) => {
          console.log(appName)
          spinner.start('开始下载');
-         download('direct:https://github.com/parasol-pubilc-project/parasol-template.git', appName, {
+         download('direct:https://github.com/parasol-public-project/parasol-template.git', appName, {
              clone: true
          }, err => {
              if (err) {
