@@ -1,0 +1,25 @@
+{
+  "name": "parasol-cli",
+  "version": "1.0.2",
+  "description": "",
+  "main": "main.js",
+  "bin": {
+    "parasol": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parasol-pubilc-project/parasol-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "download-git-repo": "^3.0.2",
+    "ora": "^5.1.0"
+  }
+}
